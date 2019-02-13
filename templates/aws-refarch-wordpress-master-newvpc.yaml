@@ -1290,7 +1290,7 @@ Resources:
         WPVersion:
           !Ref WPVersion
       #TemplateURL: https://s3.amazonaws.com/aws-refarch/wordpress/latest/templates/aws-refarch-wordpress-04-web.yaml
-      TemplateURL: https://github.com/mancillad/aws-refarch-wordpress/blob/master/templates/aws-refarch-wordpress-04-web.yaml
+      TemplateURL: https://s3.us-east-2.amazonaws.com/cf-templates-1f0vful1stbvs-us-east-2/aws-refarch-wordpress/templates/aws-refarch-wordpress-04-web.yaml
 Outputs:
 
   StackStatus:
