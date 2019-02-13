@@ -981,7 +981,8 @@ Resources:
                   #wget -P /tmp/ https://s3.amazonaws.com/aws-refarch/wordpress/latest/bits/AmazonElastiCacheClusterClient-2.0.1-PHP70-64bit.tar.gz
                   #tar -xf '/tmp/AmazonElastiCacheClusterClient-2.0.1-PHP70-64bit.tar.gz'
                   wget -P /tmp/ https://s3.amazonaws.com/elasticache-downloads/ClusterClient/PHP-7.0/latest-64bit
-                  tar -xf '/tmp/AmazonElastiCacheClusterClient-2.0.3-PHP70-64bit-libmemcached-1.0.18.tar.gz'
+                  #tar -xf '/tmp/AmazonElastiCacheClusterClient-2.0.3-PHP70-64bit-libmemcached-1.0.18.tar.gz'
+                  tar -xf '/tmp/latest-64bit'
                   cp '/tmp/artifact/amazon-elasticache-cluster-client.so' /usr/lib64/php/7.0/modules/
                   if [ ! -f /etc/php-7.0.d/50-memcached.ini ]; then
                       touch /etc/php-7.0.d/50-memcached.ini
